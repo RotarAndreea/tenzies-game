@@ -11,7 +11,7 @@ main{
   display: flex;
   background-color: rgb(206, 200, 196);
   margin: auto;
-  height: 400px;
+  height: 500px;
   border-radius: 10px; 
   max-width: 800px;
   flex-direction: column;
@@ -45,4 +45,25 @@ main p{
   font-size: 40px;
   cursor: pointer;
   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.roll-button{
+  background-color: rgb(162, 38, 38);
+  color: rgb(220, 200, 200);
+  border: 0.1px outset  rgb(196, 181, 181);
+  border-radius: 5px;
+  width: 20%;
+  height: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+  font-size: larger;
+  box-shadow: 5px 5px 10px rgb(106, 102, 102);
+}
+
+.roll-button:focus{
+  outline: none;
+}
+
+.roll-button:active{
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
