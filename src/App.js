@@ -18,8 +18,13 @@ function App() {
     {
       array.push(Math.floor(Math.random() * 7 + 1))
       i--
+      
     }
     return array
+  }
+
+  function rollDice(){
+    setDice(allNewDice)
   }
 
   return (
@@ -29,6 +34,12 @@ function App() {
           <div className='dice-container'>
               {diceValue}
           </div>
+          <button 
+                className='roll-button'
+                onClick={rollDice}
+          >
+              Roll
+          </button>
     </main>
   );
 }
