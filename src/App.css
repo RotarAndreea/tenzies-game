@@ -9,7 +9,7 @@ body{
 
 main{
   display: flex;
-  background-color: rgb(206, 200, 196);
+  background-color: rgb(194, 193, 175);
   margin: auto;
   height: 500px;
   border-radius: 10px; 
@@ -22,6 +22,7 @@ main{
 main p{
   font-family:Georgia, 'Times New Roman', Times, serif;
   max-width: 60%;
+  text-align: center;
   
 }
 
@@ -32,11 +33,11 @@ main p{
   margin-top: 30px;
 }
 
+
 .box{
   display: flex;
   width: 50px;
   height: 50px;
-  background-color: rgb(244, 228, 228);
   box-shadow: 5px 5px 12px rgb(32, 31, 31);
   border-radius: 5px;
   align-items: center;
@@ -48,8 +49,8 @@ main p{
 }
 
 .roll-button{
-  background-color: rgb(162, 38, 38);
-  color: rgb(220, 200, 200);
+  background-color: rgb(120, 33, 33);
+  color: rgb(236, 234, 234);
   border: 0.1px outset  rgb(196, 181, 181);
   border-radius: 5px;
   width: 20%;
